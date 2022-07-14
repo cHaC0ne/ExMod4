@@ -11,10 +11,11 @@
         android:id="@+id/cardView"
         android:layout_width="300dp"
         android:layout_height="600dp"
+        app:cardCornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -26,9 +27,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
                 android:text="Login"
-                android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +51,7 @@
 
             <EditText
                 android:id="@+id/etUsername"
-                android:layout_width="275sp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Type your username"
@@ -58,7 +59,7 @@
                 android:minHeight="48dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.68"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.235" />
@@ -78,7 +79,7 @@
 
             <EditText
                 android:id="@+id/etPass"
-                android:layout_width="275sp"
+                android:layout_width="250sp"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Type your password"
@@ -86,7 +87,7 @@
                 android:minHeight="48dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.68"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.387" />
@@ -105,11 +106,11 @@
 
             <Button
                 android:id="@+id/bLogin"
-                android:layout_width="275dp"
+                android:layout_width="250dp"
                 android:layout_height="40dp"
+                android:background="@drawable/botonlogin"
                 android:text="LOGIN"
                 android:textColor="@color/white"
-                android:background="@drawable/botonlogin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.451"
@@ -200,10 +201,10 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.003"
+                app:layout_constraintHorizontal_bias="0.036"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.244"
+                app:layout_constraintVertical_bias="0.241"
                 app:srcCompat="@drawable/ic_baseline_perm_identity_24" />
 
             <ImageView
@@ -212,10 +213,10 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.036"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.387"
+                app:layout_constraintVertical_bias="0.392"
                 app:srcCompat="@drawable/ic_baseline_lock_24" />
 
 
